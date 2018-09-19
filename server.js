@@ -23,7 +23,7 @@ app.set('view engine', 'handlebars');
 //connecting to MongoDB
 mongoose.connect('mongodb://heroku_xw5bk4w9:6qolkjtmte8nhe8ago5l6qcs8h@ds157522.mlab.com:57522/heroku_xw5bk4w9');
 
-//mongoose.connect('mongodb://localhost/scraped_news');
+//mongoose.connect('mongodb://localhost/mongoScraper');
 
 
 var db = mongoose.connection;
